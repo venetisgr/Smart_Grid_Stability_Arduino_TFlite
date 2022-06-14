@@ -14,7 +14,7 @@ There are 3 sections:
 - Run smart_grid_stability_train.ipynb. This will generate the tensorflow model as well as the representative dataset which will be need for quantization.
 - Run model_quant.ipynb and model_quant_io.ipynb. They will generate the tflite models and header files for the two quantization approaches. One is full integer quantization without affecting the input/output and the second quantizes both the input and the output of the model. The last approach leads to an unexpected behavior which will be explained in the last section. 
 
-*IMPORTANT*
+***IMPORTANT***
 - If you wish to alter the code and create new models you will have to move them from the TFLITE_models folder to their respective arduino folder. Either smart_grid_no_io_quant(no input-output quantization) or to smart_grid_io_quant(with input-output quantization)
 
 
