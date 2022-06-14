@@ -1,6 +1,6 @@
 # Smart Grid_Stability Arduino 33 BLE SENSE TFlite
 
-The main goal of this project is to create an ANN Network and later deploy it on Arduino 33 BLE SENSE using TensorFlow Lite. The ANN can predict whether a Smart Grid is stable or unstable (Binary Classification). The code was created on Google Collab, thus making it easy to replicate. Essentially the only thing that need to be changed is the folder path (but keeping the folder structure identical to the one on Github).
+The main goal of this project is to create an ANN Network and later deploy it on Arduino 33 BLE SENSE using TensorFlow Lite. The ANN can predict whether a Smart Grid is stable or unstable (Binary Classification). The code was created on Google Collab, thus making it easy to replicate. Essentially the only thing that needS to be changed is the folder path (but keeping the folder structure identical to the one on Github).
 
 There are 3 sections:
 
