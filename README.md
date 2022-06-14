@@ -13,6 +13,10 @@ There are 3 sections:
 3. Observations
 4. Problems regarding the TFLite and Arduino Deployment
 
+## 0 - Upload Models directly
+- Go to the final folder
+- Models are already in their respective folder so you can just go to either smart_grid_no_io_quant(no input-output quantization) or to smart_grid_io_quant(with input-output quantization) and upload the models to the arduino right away
+
 ## 1 - End to End walkthrough
 
 - Go to the final folder
