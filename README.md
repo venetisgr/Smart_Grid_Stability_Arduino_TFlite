@@ -41,7 +41,7 @@ There are 3 sections:
 
 - The main issue was the outdated documentation and the fact that many functions/approaches are no longer supported by either arduino or tensorflow.
 - Many microcontrollers models seem to not work correctly and their software support for TF seems to be outdated, the safest options would be ARDUINO 33 BLE SENSE and Rasberry PICO.
-- It seems that only full integer quantization (with and wihout input/output quantization) seem to work. Otherwise an error called HYBRID MODELS not supported occurs. This seems to have due to optimization leaving part of the operations as floating point (hence hybrid) and mixing isn't supported in micro.
+- It seems that only full integer quantization (with and wihout input/output quantization) seem to work. Otherwise an error called HYBRID MODELS not supported occurs. This seems to be due to optimization leaving part of the operations as floating point (hence hybrid) and mixing isn't supported in micro.
 (https://github.com/tensorflow/tensorflow/issues/43386)
 - Input/Output uint8 quantization is no longer supported.
 (https://github.com/tensorflow/tflite-micro/issues/280)
