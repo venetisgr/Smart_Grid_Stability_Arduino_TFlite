@@ -34,7 +34,7 @@ There are 3 sections:
 - Only the full integer quantization methods with and without input/output quantization worked
 - Average inference time in both cases for one observation on arduino was 3.30 sec
 - Significant model size reduction from roughly 1.1MB model size, quantization led to models of size roughly 300KB.
-- When uploaded the models used 29% of the FLASH memory and 37% of the SRAM memory. Should be noted that the size selected for tensor arena was 4*1024 Bytes/ 4KB, tensor arena is stored in SRAM. We can increase or decrease(x * 1024) the size of tensor arena to match the requirements of our model memory requirements as well as reduce the memory requirements.
+- When uploaded, the models used 29% of the FLASH memory and 37% of the SRAM memory. Should be noted that the size selected for tensor arena was 4*1024 Bytes/ 4KB, tensor arena is stored in SRAM. We can increase or decrease(x * 1024) the size of tensor arena to match the requirements of our model memory requirements as well as reduce the memory requirements.
 - Accuracy wise the original model and full integer quantization without input/output quantization model had similar accuracy of 98%. Quantizing the input/output led to a significant accuracy drop to ~80%.
 
 ## 4 - Problems (Personal opinions included, I could be wrong in some. Feel free to message me or send a pull request if you believe so)
@@ -46,3 +46,4 @@ There are 3 sections:
 - Input/Output uint8 quantization is no longer supported.
 (https://github.com/tensorflow/tflite-micro/issues/280)
 - Input/Output int8 quantization had a significant accuracy drop.
+(https://github.com/tensorflow/tflite-micro/issues/396)
