@@ -45,4 +45,4 @@ There are 3 sections:
 (https://github.com/tensorflow/tensorflow/issues/43386)
 - Input/Output uint8 quantization is no longer supported.
 (https://github.com/tensorflow/tflite-micro/issues/280)
--
+- Input/Output int8 quantization had a significant accuracy drop.
